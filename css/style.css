@@ -1,0 +1,183 @@
+/* CSS Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inconsolata', monospace;
+}
+body{
+    background-image: url('/img/back.jpg');
+}
+/* Navigation */
+#navbar{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    background-color: black;
+    align-items: center;
+    opacity: 0.9;
+}
+.logo{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+#navbar ul{
+    display: flex;
+    padding: 16px 3px;
+    margin: 15px -17px;
+}
+#navbar ul li{
+    display: flex;
+    padding: 5px 20px;
+}
+#navbar ul li a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    margin: -4px;
+    padding: 7px;
+}
+#navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+/* homepage */
+.sname{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 300px;
+    margin: 30px 8px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,#000000, #00443c);
+    color: white;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+.sname h2{
+    font-size: 3.1rem;
+}
+.para {
+    padding: 10px;
+    font-size: 17px;
+}
+
+/* pizza items/ */
+#menu{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.item{  
+    right: 10px;
+    padding: 90px 83px;
+    height: 248px;
+    width: 232px;
+    margin: 22px 13px;
+}
+#menu .item img{
+    display: flex;
+    top: 50%;
+    width: 382px;
+    height: 368px;
+    padding: 10px 30px;
+    margin: -71px -70px;
+}
+.itemi{
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(to right,#ff0a0a, #00000069);
+    height: 14px;
+    width: 211px;
+    color: #ffb500;
+    opacity: 0.9;
+    padding: 13px 64px;
+    margin: 8px -19px;
+    top: 59px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.btn{
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+    background: linear-gradient(to right,#b92145, #00000069);
+    color: rgb(197, 197, 197);
+    font-size: 19px;
+    top: 47px;
+    left: -27px;
+    width: 335px;
+    margin: 11px 9px;
+    padding: 9px 5px;   
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+/* Contect */
+.heading-2c{
+    position:relative;
+    top: 30px;
+    font-size: 30px;
+    text-align: center;
+    background: linear-gradient(to right,#000000, #00443c);
+    color: white;
+    opacity: 0.9;
+}
+.form{
+    position: relative;
+    top: 50px;
+    width: 100%; 
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: teal;
+    opacity: 0.9;
+    
+}
+.value input,
+.value textarea{
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    font-size: 1.3rem;
+    width: 400px;
+    padding: 16px;
+    margin: 3px;
+}
+.btn1{
+    font-family: 'Josefin Sans', sans-serif;
+    background: linear-gradient(to right,#b92145, #00000069);
+    color: rgb(197, 197, 197);
+    font-size: 19px; 
+}
+.btn1:hover{
+    background-color: rgb(212, 210, 202);
+}
+/* footer */
+footer{
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+    background: black;
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+    top: 70px
+}
+/* Utility Classes */
+.heading-2{
+    font-size: 30px;
+    text-align: center;
+    background: linear-gradient(to right,#000000, #00443c);
+    color: white;
+    opacity: 0.9;
+}

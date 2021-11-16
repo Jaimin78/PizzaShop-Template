@@ -5,7 +5,8 @@
     font-family: 'Inconsolata', monospace;
 }
 body{
-    background-color: linear-gradient(#FCCF31, #F55555);
+    background-image: url("https://jaimin78.github.io/PizzaShop-Template/back.jpg");
+    /*background-color: linear-gradient(#FCCF31, #F55555);*/
 }
 /* Navigation */
 #navbar{
